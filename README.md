@@ -2,7 +2,7 @@
 
 ## AI & ML Internship - Task 2
 
-## 📌 Project Overview
+## Project Overview
 
 This project performs Exploratory Data Analysis (EDA) on the Titanic dataset. The objective is to understand the dataset using descriptive statistics and data visualization techniques.
 
@@ -10,7 +10,7 @@ The analysis focuses on identifying patterns, trends, relationships, missing val
 
 ---
 
-## 🎯 Objective
+## Objective
 
 The main objectives of this project are:
 
@@ -24,7 +24,7 @@ The main objectives of this project are:
 
 ---
 
-## 🛠️ Tools and Technologies Used
+## Tools and Technologies Used
 
 * Python
 * Google Colab
@@ -35,7 +35,7 @@ The main objectives of this project are:
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 The project uses the Titanic dataset, which contains information about passengers aboard the Titanic.
 
@@ -56,7 +56,7 @@ Some of the important features include:
 
 ---
 
-## 🔍 Exploratory Data Analysis Performed
+## Exploratory Data Analysis Performed
 
 The following analyses were performed:
 
@@ -79,7 +79,7 @@ The following analyses were performed:
 
 ---
 
-## 📈 Key Insights
+## Key Insights
 
 * The dataset contains missing values in features such as Age, Cabin, and Embarked.
 * The Fare feature is positively skewed and contains several potential outliers.
@@ -91,7 +91,7 @@ The following analyses were performed:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 ElevateLabs-AI-ML-Task2-EDA/
@@ -103,7 +103,7 @@ ElevateLabs-AI-ML-Task2-EDA/
 
 ---
 
-## ▶️ How to Run the Project
+## How to Run the Project
 
 1. Clone or download this repository.
 2. Open the `.ipynb` file in Google Colab or Jupyter Notebook.
@@ -122,7 +122,7 @@ seaborn
 
 ---
 
-## 📝 Conclusion
+## Conclusion
 
 This project demonstrates the importance of Exploratory Data Analysis before building a machine learning model. Through descriptive statistics and visualizations, the analysis identified missing values, outliers, skewness, and important relationships between features.
 
@@ -130,7 +130,7 @@ The findings show that EDA is an essential step for understanding a dataset and 
 
 ---
 
-## 👤 Author
+## Author
 
 **Dhairya Shah**
 
