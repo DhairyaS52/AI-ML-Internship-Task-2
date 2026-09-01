@@ -1,137 +1,80 @@
-# Exploratory Data Analysis (EDA) - Titanic Dataset
+# Task 2 - Exploratory Data Analysis (EDA)
 
-## AI & ML Internship - Task 2
+## About the Project
 
-## Project Overview
+This project is part of my AI & ML Internship. For this task, I worked on Exploratory Data Analysis (EDA) using the Titanic dataset.
 
-This project performs Exploratory Data Analysis (EDA) on the Titanic dataset. The objective is to understand the dataset using descriptive statistics and data visualization techniques.
+The main aim was to understand the data, check for missing values and outliers, and find some useful patterns using statistics and graphs.
 
-The analysis focuses on identifying patterns, trends, relationships, missing values, skewness, and potential outliers in the dataset.
+## Dataset
 
----
+I used the Titanic dataset for this task.
 
-## Objective
+Some of the columns in the dataset are:
 
-The main objectives of this project are:
+* PassengerId
+* Survived
+* Pclass
+* Name
+* Sex
+* Age
+* SibSp
+* Parch
+* Fare
+* Cabin
+* Embarked
 
-* Understand the structure of the dataset.
-* Generate descriptive statistics.
-* Identify missing values and duplicate records.
-* Visualize the distribution of numerical features using histograms.
-* Detect potential outliers using boxplots and the IQR method.
-* Analyze relationships between features using pairplots and correlation analysis.
-* Identify patterns related to passenger survival.
+## What I Did
 
----
+In the notebook, I performed the following:
 
-## Tools and Technologies Used
+* Loaded and checked the dataset
+* Checked the number of rows and columns
+* Checked data types
+* Checked missing values
+* Checked duplicate records
+* Generated summary statistics
+* Filled missing values in Age and Embarked
+* Created histograms for numerical features
+* Created boxplots to look for outliers
+* Compared survival based on gender
+* Compared survival based on passenger class
+* Created a pairplot
+* Created a correlation matrix and heatmap
+* Checked skewness
+* Detected outliers using the IQR method
+
+## Some Observations
+
+From the analysis, I found that:
+
+* There are missing values in some columns, especially Cabin and Age.
+* Fare has a right-skewed distribution and contains some high-value outliers.
+* Female passengers had a higher survival rate than male passengers.
+* First-class passengers had a better survival rate compared to lower classes.
+* Passenger class and fare are related, as first-class passengers generally paid higher fares.
+
+## Tools Used
 
 * Python
-* Google Colab
 * Pandas
 * NumPy
 * Matplotlib
 * Seaborn
+* Google Colab
 
----
+## Files
 
-## Dataset
-
-The project uses the Titanic dataset, which contains information about passengers aboard the Titanic.
-
-Some of the important features include:
-
-* Passenger ID
-* Passenger Class
-* Name
-* Sex
-* Age
-* Number of Siblings/Spouses
-* Number of Parents/Children
-* Ticket Number
-* Fare
-* Cabin
-* Port of Embarkation
-* Survival Status
-
----
-
-## Exploratory Data Analysis Performed
-
-The following analyses were performed:
-
-1. Dataset loading and basic inspection
-2. Checking dataset shape and column information
-3. Summary statistics
-4. Missing value analysis
-5. Duplicate value detection
-6. Basic data cleaning
-7. Categorical feature analysis
-8. Histograms for numerical features
-9. Boxplots for outlier detection
-10. Survival distribution analysis
-11. Survival analysis by gender
-12. Survival analysis by passenger class
-13. Pairplot visualization
-14. Correlation matrix and heatmap
-15. Skewness analysis
-16. Outlier detection using the IQR method
-
----
-
-## Key Insights
-
-* The dataset contains missing values in features such as Age, Cabin, and Embarked.
-* The Fare feature is positively skewed and contains several potential outliers.
-* Female passengers had a higher survival rate compared to male passengers.
-* First-class passengers generally had a higher survival rate compared to lower-class passengers.
-* Passenger class and Fare have a meaningful relationship.
-* Visualizations helped identify important patterns and relationships within the dataset.
-* EDA highlighted data quality issues that should be considered before applying machine learning models.
-
----
-
-## Project Structure
-
-```text
-ElevateLabs-AI-ML-Task2-EDA/
-│
-├── ElevateLabs_Task2_EDA_Titanic.ipynb
-├── Titanic-Dataset.csv
-└── README.md
-```
-
----
-
-## How to Run the Project
-
-1. Clone or download this repository.
-2. Open the `.ipynb` file in Google Colab or Jupyter Notebook.
-3. Ensure that `Titanic-Dataset.csv` is available in the working directory.
-4. Install the required libraries if necessary.
-5. Run all cells sequentially.
-
-### Required Libraries
-
-```text
-pandas
-numpy
-matplotlib
-seaborn
-```
-
----
+* `ElevateLabs_Task2_EDA_Titanic.ipynb` - Google Colab notebook containing the analysis
+* `titanic.csv` - Dataset used for the analysis
+* `README.md` - Project details
 
 ## Conclusion
 
-This project demonstrates the importance of Exploratory Data Analysis before building a machine learning model. Through descriptive statistics and visualizations, the analysis identified missing values, outliers, skewness, and important relationships between features.
+EDA helped me understand the Titanic dataset better and identify things like missing values, outliers, skewness and relationships between different features.
 
-The findings show that EDA is an essential step for understanding a dataset and making informed decisions before data preprocessing and model development.
+This analysis also gives a better idea of what needs to be considered before using the dataset for a machine learning model.
 
----
+## Internship
 
-## Author
-
-**Dhairya Shah**
-
-AI & ML Internship – Task 2
+**AI & ML Internship - Task 2**
